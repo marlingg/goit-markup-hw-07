@@ -702,22 +702,15 @@ width: 398px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
-
   letter-spacing: 0.04em;
-
   color: #8e8f99;
 }
 .modal_title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
-
   text-align: center;
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
   color: #2e2f42;
   margin-bottom: 16px;
 }
@@ -727,16 +720,8 @@ width: 398px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  /* or 117% */
-
   letter-spacing: 0.04em;
-
-  /* LIGHT SLATE */
-
   color: #8e8f99;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -1379,11 +1364,27 @@ width: 398px;
     }
   
     .li_customers {
+      margin-right: 24px;
       width: 168px;
       height: 88px;
-      margin-right: 24px;
+    }
+    .li_customers:nth-child(even) {
+        margin-right: 24px;
+          width: 168px;
+          height: 88px;
     }
   
+    .li_customers:nth-last-child(1),
+    .li_customers:nth-last-child(2) {
+        margin-right: 24px;
+          width: 168px;
+          height: 88px;
+          margin-bottom: 72px;
+    }
+    .li_customers:last-child{
+      margin-right: 0;
+    }
+
     .h2_customers {
       font-weight: 700;
       font-size: 36px;
