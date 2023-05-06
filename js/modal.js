@@ -12,3 +12,15 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+
+function header_main(){ 
+  
+  let win = document.getElementById('header_window');
+ 
+  let style = getComputedStyle(win);
+      if (style.display !== 'block') {
+          document.getElementById('header_window').style.display= 'block';
+  }else if (style.display=== 'block') {
+          document.getElementById('header_window').style.display= 'none';
+  }
+}

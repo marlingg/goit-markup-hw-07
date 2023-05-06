@@ -13,6 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="header_window"></div>
     <header class="header">
    <div class="container" style="display: flex; align-items: center;">
     
@@ -39,7 +40,7 @@
         </ul>
       </address>
 
-       <svg class="header_svg">
+       <svg class="header_svg" onclick="header_main">
           <use href="./images/symbol-defs.svg#icon-menu">
               </use>
             </svg>
@@ -70,16 +71,16 @@
         <ul class="ul_second_section">
           <li  class="li_second_section">
           
-           
+          <div class="second_section_div"> <svg class="second_section_svg"><use href="./images/symbol-defs.svg#icon-antenna"></use></svg></div>
             <h3 class="second_title">Strategy</h3>
             <p class="second_text">
-              Our goal is to identify the business
+              Our goal is to identify the busines
                problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li class="li_second_section">
-            
+            <div class="second_section_div"> <svg class="second_section_svg"><use href="./images/symbol-defs.svg#icon-clock"></use></svg></div>
             <h3 class="second_title">Punctuality</h3>
             <p class="second_text">
               Bring the key message to the 
@@ -88,20 +89,20 @@
             </p>
           </li>
           <li class="li_second_section">
-  
+  <div class="second_section_div"><svg class="second_section_svg"><use href="./images/symbol-defs.svg#icon-diagram"></use></svg></div>
             <h3 class="second_title">Diligence</h3>
             <p class="second_text">
-              Research and confirm brands that 
-               present the strongest digital growth  
+              Research and confirm brands that
+               present the strongest digital growth 
             opportunities and minimize risk.
             </p>
           </li>
           <li class="li_second_section">
-           
+           <div class="second_section_div"><svg class="second_section_svg"><use href="./images/symbol-defs.svg#icon-astronaut"></use></svg></div>
             <h3 class="second_title">Technologies</h3>
             <p class="second_text">
-              Design practice focused on digital  
-              experiences. We bring forth a deep  
+              Design practice focused on digital
+              experiences. We bring forth a deep 
               passion for problem-solving.
             </p>
           </li>
@@ -109,7 +110,22 @@
       </div>
       </section>
 
-     
+      <section class="thirt_section">
+      <div class="container">
+        <h2 class="thirt_title">What are we doing</h2>
+        <ul class="ul_thirt_section_images">
+          <li class="li_thirt_section_images">
+            <img src="./images/mac.jpg" alt="macbook" width="360" height="300" />
+          </li>
+          <li class="li_thirt_section_images">
+            <img src="./images/phone.jpg" alt="phone" width="360" height="300" />
+          </li>
+          <li class="li_thirt_section_images">
+            <img src="./images/phone-mac.jpg" alt="macbook-phone" width="360" height="300"  />
+          </li>
+        </ul>
+      </div>
+      </section>
 
       <section class="four_section">
         <div class="container">
@@ -389,14 +405,13 @@
   </form>
 </div>
 </div>
-
 <footer class="footer">
   
 <div class="container">
 
 <div class="div_footer">
 
-<div class="logo_div_footer">
+<div>
   <a class="logo_footer" href="./index.html">Web<span class="logo_footer_span">Studio<span></a>
     <p class="text_footer">
       Increase the flow of customers and
@@ -412,7 +427,7 @@
    Social media
     </h3>
 <ul class="footer_ul_social_icon">
-    <li class="footer_li_team_social"><a class="a_footer_social"href="./portfolio.html">
+    <li class="footer_li_team_social"><a class="a_footer_social"href="#">
       <svg class="footer_social">
         <use href="./images/symbol-defs.svg#icon-instagram">
         </use>
@@ -464,4 +479,5 @@ Subscribe
   </footer>
 <script src="./js/modal.js"></script>
 </body>
+
 </html>
