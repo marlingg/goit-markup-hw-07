@@ -13,7 +13,59 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="header_window"></div>
+    <div class="header_window" id="header_window">
+      <span class="main_phone_close"onclick="win_exit()">
+       <svg class="svg_close_phone">
+          <use href="./images/symbol-defs.svg#icon-close">
+              </use>
+                     </svg>
+ </span>
+ <ul class="ul_phone_navigation">
+  <li class="li_phone_navigation"><h2>Studio</h2></li>
+  <li class="li_phone_navigation"><h2>Portfolio</h2></li>
+ <li class="li_phone_navigation"><h2>Contacts</h2></li>
+ </ul>
+
+ <ul class="ul_phone_contacts">
+  <li class="li_phone_contacts"><h2>+11 (000) 111-11-11</h2></li>
+  <li class="li_phone_contacts"><h2>info@devstudio.com</h2></li>
+ </ul>
+
+<ul  class="ul_phone_social">
+          <li class="li_phone_social">
+            <a class="a_team_social" href="#">
+            <svg class="team_social">
+              <use href="./images/symbol-defs.svg#icon-instagram">
+              </use>
+            </svg >
+          </a>
+        </li>
+         <li class="li_phone_social"> <a class="a_team_social" href="#">
+            <svg class="team_social">
+              <use href="./images/symbol-defs.svg#icon-facebook">
+              </use>
+            </svg>
+          </a>
+        </li>
+         <li class="li_phone_social"><a class="a_team_social" href="#">
+            <svg class="team_social">
+              <use href="./images/symbol-defs.svg#icon-twitter">
+              </use>
+            </svg>
+          </a>
+        </li>
+         <li class="li_phone_social"><a class="a_team_social" href="#">
+            <svg class="team_social">
+              <use href="./images/symbol-defs.svg#icon-linkedin">
+              </use>
+            </svg>
+          </a>
+        </li>
+
+        </ul>
+
+
+  </div>
     <header class="header">
    <div class="container" style="display: flex; align-items: center;">
     
@@ -21,9 +73,9 @@
        
   <ul class="ul_navigation_header">
           <li>
-            <a class="a_navigation_header" href="./index.html">Studio</a>
+            <a class="a_navigation_header current" href="./index.html">Studio</a>
           </li>
-          <li><a class="a_navigation_header current" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="a_navigation_header " href="./portfolio.html">Portfolio</a></li>
           <li><a class="a_navigation_header" href="">Contacts</a></li>
         </ul>
       </nav>
@@ -40,7 +92,7 @@
         </ul>
       </address>
 
-       <svg class="header_svg" onclick="header_main">
+       <svg class="header_svg" onclick="header_main()">
           <use href="./images/symbol-defs.svg#icon-menu">
               </use>
             </svg>
