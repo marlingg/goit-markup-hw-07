@@ -1986,19 +1986,6 @@ margin-left: 40px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) and (max-width: 1158px){
   body {
     font-family: "Roboto", sans-serif;
@@ -2077,7 +2064,7 @@ margin-left: 40px;
   }
 
   .ul_navigation_header:last-child {
-    margin-right: 292px;
+    margin-right: 0;
   }
 
   .main_navigation_header {
