@@ -49,7 +49,7 @@ h6 {
   clip: rect(0 0 0 0);
 }
 .container {
-  width: 428px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -60,6 +60,8 @@ img {
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 25.5px;
+  padding-bottom: 23.5px;
 }
 .ul_navigation_header{
   display: none;
@@ -69,17 +71,13 @@ img {
 }
 .logo_header {
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 800;
   font-size: 18px;
   line-height: 0.8;
-  display: flex;
-  align-items: center;
+  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
- margin-top: 23.5px;
- margin-bottom: 23.5px;
 }
 .logo_header_span {
   color: var(--dark);
@@ -88,7 +86,7 @@ font-weight: 800;
   width: 29px;
     height: 18px;
    stroke: #2E2F42;
-margin-left: 250px;
+margin-left: 60%;
 }
 /* header */
 
@@ -190,9 +188,12 @@ margin-left: 250px;
   display: none;
 }
 .four_section {
+
+width: 100%;
   background: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
+  padding-left: 20%;
 }
 .img_border_four_section {
   background-color: #fff;
@@ -200,7 +201,7 @@ margin-left: 250px;
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   width: 264px;
-  margin: 0 auto 72px;
+  
 }
 
 .four_title {
@@ -234,7 +235,7 @@ margin-left: 250px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text);
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 .ul_team_social {
   display: flex;
@@ -681,8 +682,7 @@ width: 398px;
 .label_footer {
   display: inline;
 }
-.main_form {
-}
+
 .modal {
   padding-top: 72px;
   padding-left: 24px;
@@ -1890,12 +1890,13 @@ width: 398px;
 }
 .header_window{
   display: none;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   background-color: white;
        justify-content: center;
       align-items: center;
+   
 }
 .svg_close_phone{
   width: 8px;
@@ -2284,7 +2285,7 @@ font-style: normal;
 
   .four_section {
     background: var(--light);
-    display: flex;
+   width: 100%;
     padding-top: 120px;
     padding-bottom: 120px;
   }

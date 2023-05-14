@@ -19,7 +19,7 @@ function header_main(){
  
   let style = getComputedStyle(win);
       if (style.display === 'none') {
-          document.getElementById('header_window').style.display= 'block';
+        document.getElementById('header_window').style.display = 'block';
   }else if (style.display === 'block') {
           document.getElementById('header_window').style.display= 'none';
   }
